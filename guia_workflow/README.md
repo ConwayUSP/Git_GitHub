@@ -24,6 +24,12 @@ A ideia central do Gitflow é utilizar várias e diversas ramificações, com ca
     
 - **hotfix:** São usadas para corrigir rapidamente lançamentos de produção e são bifurcadas diretamente da `main`. Após a correção, o merge é feito tanto na `main` quanto na `develop`
 
+![](assets/gitflow.png)
+
+Fonte: https://blog.kinto-technologies.com/posts/2023-03-07-From-Git-flow-to-GitHub-flow/
+
+#### Exemplo
+
 Imagine que você juntou um pessoal da Conway e decidiu desenvolver um aplicativo de e-commerce chamado **ConwayShop**, onde será vendido camisas da Conway, sapatos da Conway, mascotes da Conway, cadernos/mochilas da Conway, mesa de sinuca da Conway, etc. Vamos ver como as ramificações seriam usadas na prática:
 
 - **`main`:** O aplicativo está no ar e os queridos membros da nossa entidade e da USP estão fazendo compras nele! O código atual da `main` é a **versão 1.0.0**. Tudo que está aqui é código de produção.
@@ -83,6 +89,10 @@ O processo geralmente segue estas etapas:
     
 6. **Excluir o branch:** Após o merge, exclua o branch para indicar que o trabalho foi concluído e evitar o uso de branches antigos acidentalmente.
 
+![](assets/githubFlow.png)
+
+Fonte: https://velog.io/@fenjo/%ED%98%91%EC%97%85%EC%9D%84-%EC%9C%84%ED%95%9C-Git-flow-GitHub-flow-Git-branch-%EC%82%AC%EC%9A%A9%EB%B2%95
+
 **Exemplo:**
 
 1. **Criar um branch:** A desenvolvedora Joanna Connie Way precisa adicionar a página de inscrição para a próxima Game Jam no site da Conway. Como a regra aqui é agilidade, ela cria a ramificação `feature/pagina-game-jam` **diretamente a partir da `main`**.
@@ -136,7 +146,7 @@ Se o pipeline sinalizar alguma falha durante os testes automáticos, a esteira p
 
 ~~Tive duas matérias que ensinavam isso e ainda não entendi direito~~~ De forma bem breve e pra que esse desvio que a gente tomou não se estenda mais ainda, Pipeline é basicamente (nesse nosso contexto pelo menos, em outros ele pode ter outro significado, mas não vale a pena se preocupar com isso para essa aula) uma sequência automatizada de passos executados em ordem por um servidor. Quando um código novo é enviado, o pipeline dispara scripts que, geralmente, compilam o projeto, executam testes e realizam o deploy. Se qualquer etapa falhar, a execução é interrompida imediatamente.
 
-### Práticas Recomendadas para o Sucesso
+### Práticas Recomendadas 
 
 Para que o desenvolvimento baseado em tronco funcione sem introduzir falhas na produção, as equipes devem seguir algumas práticas rigorosas:
 
@@ -151,6 +161,11 @@ Para que o desenvolvimento baseado em tronco funcione sem introduzir falhas na p
 - **Revisões de código ágeis:** A revisão de código deve ser realizada imediatamente. Os testes automatizados oferecem uma camada preventiva, garantindo ao revisor que o novo código atende a certas especificações antes de focar em otimizações.
     
 - **Manter a limpeza de ramificações:** É recomendado ter três ou menos ramificações ativas no repositório, sendo a exclusão da ramificação uma prática recomendada assim que ela passa por merge.
+
+![](assets/trunk.png)
+
+Fonte: https://fity.club/lists/suggestions/trunk-based-development/
+
 ####  Exemplo
 
 A equipe da Conway agora está desenvolvendo um novo e complexo Sistema de Votação para avaliar os jogos enviados na próxima Game Jam. Como eles já possuem um pipeline de CI/CD muito bem configurado e confiável (quem nos dera), decidiram usar o Trunk-Based Development.
