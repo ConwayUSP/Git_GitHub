@@ -144,7 +144,7 @@ Se o pipeline sinalizar alguma falha durante os testes automáticos, a esteira p
 
 ###### E o que raios é um pipeline senhor Du Almeida?????????
 
-~~Tive duas matérias que ensinavam isso e ainda não entendi direito~~~ De forma bem breve e pra que esse desvio que a gente tomou não se estenda mais ainda, Pipeline é basicamente (nesse nosso contexto pelo menos, em outros ele pode ter outro significado, mas não vale a pena se preocupar com isso para essa aula) uma sequência automatizada de passos executados em ordem por um servidor. Quando um código novo é enviado, o pipeline dispara scripts que, geralmente, compilam o projeto, executam testes e realizam o deploy. Se qualquer etapa falhar, a execução é interrompida imediatamente.
+~~Tive duas matérias que ensinavam isso e ainda não entendi direito~~ De forma bem breve e pra que esse desvio que a gente tomou não se estenda mais ainda, Pipeline é basicamente (nesse nosso contexto pelo menos, em outros ele pode ter outro significado, mas não vale a pena se preocupar com isso para essa aula) uma sequência automatizada de passos executados em ordem por um servidor. Quando um código novo é enviado, o pipeline dispara scripts que, geralmente, compilam o projeto, executam testes e realizam o deploy. Se qualquer etapa falhar, a execução é interrompida imediatamente.
 
 ### Práticas Recomendadas 
 
