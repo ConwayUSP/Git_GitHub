@@ -23,3 +23,6 @@ Voltar ao [README Principal](../README.md)
 - [git pull](git_pull.md)
 - [git clone](git_clone.md)
 - [git config](git_config.md)
+- [git_switch](git_switch.md).
+- [git_restore](git_restore.md).
+- [git_reflog](git_reflog.md).
