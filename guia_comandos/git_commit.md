@@ -4,7 +4,7 @@ Voltar ao [Guia de Comandos](README.md)
 
 ## O que faz?
 
-O comando git commit tem a função de "salvar" as mudanças que estão na staging area (adicionadas pelo git add) para o histórico do repositório local. Cada commit funciona como um "ponto de salvamento" ou uma fotografia do projeto naquele momento, acompanhado de uma mensagem que explica o que foi feito.
+O comando `git commit` tem a função de "salvar" as mudanças que estão na staging area (adicionadas pelo git add) para o histórico do repositório local. Cada commit funciona como um "ponto de salvamento" ou uma fotografia do projeto naquele momento, acompanhado de uma mensagem que explica o que foi feito.
 
 ## Formas de usar
 
