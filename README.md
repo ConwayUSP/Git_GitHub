@@ -43,3 +43,9 @@ Sinta-se à vontade para explorar o material e aprender no seu próprio ritmo. S
 - [Guia Prático](guia_pratico/README.md)
 - [Guia de Comandos](guia_comandos/README.md)
 - [Glossário de Conceitos](glossario_conceitos/README.md)
+
+## Iceberg
+
+Atenção: Imagem extremamente debativel abaixo
+
+![](gitIceberg.png)
