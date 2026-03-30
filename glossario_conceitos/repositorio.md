@@ -11,6 +11,8 @@ Um **repositório** do Git é o local onde os arquivos do seu projeto e o histó
 
 Além disso, o comando `git` ou o Github Desktop só funcionam dentro de repositórios, o repositório é nossa bancada de trabalho, e as operações git, nossas ferramentas.
 
+Repositório também é como chamamos o estágio final de trabalho no Git. Você começa com alterações no [Working Directory](working_directory.md), move elas para a [Staging Area](staging_area.md) e ao salvá-las, elas entram para o **estado de repositório**, ou seja você tem uma cópia permanente do estado do seu projeto.
+
 ## Obtendo um Repositório
 
 Existem duas formas de obter um repositório do git, você pode **criar** um, ou **clonar** um. Dependendo do seu trabalho, uma operação pode ser mais comum que a outra. Vamos explorar as duas ideias e falar sobre dois tipos de repositórios.
