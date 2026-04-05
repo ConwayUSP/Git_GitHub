@@ -6,7 +6,9 @@ Voltar ao [README Principal](../README.md)
 
 ## Iceberg de Comandos
 
-**Atenção**: Imagem extremamente debatível abaixo!
+Em meio a tantos comandos disponíveis, existem aqueles que iremos utilizar constantemente durante o desenvolvimento, enquanto existem aqueles que serão utilizados em situações muito específicas ou de emergência (quando você sente que tudo está perdido e não tem mais nada a fazer). Para ilustrar isso, criamos uma imagem extremamente debatível de um **Icerberg de Comandos**. Sinta-se a vontade para apreciar!
+
+> Observação: a imagem reflete apenas a opinião pessoal do autor, e não deve ser levada como uma verdade absoluta. Afinal, a utilidade de um comando pode variar muito dependendo do contexto e do projeto em que você está trabalhando. O importante é conhecer os comandos e saber quando utilizá-los, para que você possa escolher a melhor opção para cada situação.
 
 ![iceberg com comandos git](./assets/gitIceberg.png)
 
