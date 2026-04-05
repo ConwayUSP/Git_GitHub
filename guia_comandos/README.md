@@ -4,6 +4,12 @@
 
 Voltar ao [README Principal](../README.md)
 
+## Iceberg de Comandos
+
+**Atenção**: Imagem extremamente debatível abaixo!
+
+![iceberg com comandos git](./assets/gitIceberg.png)
+
 ## Sumário
 
 - [git init](git_init.md)
@@ -23,6 +29,6 @@ Voltar ao [README Principal](../README.md)
 - [git pull](git_pull.md)
 - [git clone](git_clone.md)
 - [git config](git_config.md)
-- [git_switch](git_switch.md).
-- [git_restore](git_restore.md).
-- [git_reflog](git_reflog.md).
+- [git switch](git_switch.md)
+- [git restore](git_restore.md)
+- [git reflog](git_reflog.md)
