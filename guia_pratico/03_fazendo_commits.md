@@ -2,7 +2,7 @@
 
 ## Fazendo manualmente
 
-Com o [repositório](../glossario_conceitos/repositório.md) criado, podemos começar a fazer [commits](../glossario_conceitos/commit.md). Tecnicamente, um commit é um nó que aponta para o commit pai (o anterior) e guarda um *snapshot* — uma "print" do estado atual do projeto naquele momento, com todos os arquivos e linhas de código. Ou seja, podemos observar um repositório como sendo basicamente um "grafo" direcionado:
+Com o [repositório](../glossario_conceitos/repositório.md) criado, podemos começar a fazer [commits](../glossario_conceitos/commit.md). Tecnicamente, um commit é um nó que aponta para o commit pai (o anterior) e guarda um *snapshot* — uma "print" do estado atual do projeto naquele momento, com todos os arquivos e linhas de código. Ou seja, podemos observar um repositório como sendo basicamente um "grafo" direcionado, sempre apontando pra trás.
 
 Como não iremos trabalhar com nenhuma linguagem específica, o tipo de arquivo que usaremos aqui para fins didáticos será o `.txt`, mas é óbvio que no seu dia dia você terá contato com ínumeras extensões de arquivos. Portanto, crie um no seu repositório e escreva qualquer baboseira dentro. Pelo VSCode, observe que o nome do arquivo ficará em verde na aba lateral, junto a uma letra "U", que significa *Untracked*. Isso quer dizer que o Git detectou que um arquivo surgiu/foi modificado.
 
