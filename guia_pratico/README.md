@@ -18,3 +18,7 @@ Voltar ao [README Principal](../README.md)
 10. [Colaborando com os outros](09_colaborando_com_outros.md)
 11. [Trabalhando com Workflows](10_workflow.md)
 12. [Desfazendo caquinhas](11_desfazendo_caquinhas.md)
+
+## Desafio Final
+
+Depois de toda essa empreitada, você está finalmente pronto para pôr seus conhecimentos à prova! Para saber mais sobre as instruções para o desafio final, acesse o capítulo [Desafio Final](12_desafio_final.md).
