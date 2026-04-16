@@ -34,3 +34,5 @@ Em meio a tantos comandos disponíveis, existem aqueles que iremos utilizar cons
 - [git switch](git_switch.md)
 - [git restore](git_restore.md)
 - [git reflog](git_reflog.md)
+- [git remote](git_remote.md)
+- [git fetch](git_fetch.md)
