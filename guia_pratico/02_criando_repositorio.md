@@ -19,7 +19,7 @@ De forma análoga, podemos simplificar um pouco esse processo pelo GitHub Deskto
 ![GitHub Desktop aberto com a opção de criar novo repositório](./assets/create-repository.png)
 
 Ao fazer isso, uma tela com um pequeno formulário será aberta, onde será pedido:
-- **Nome do [repositório](../glossario_conceitos/repositório.md)**;
+- **Nome do [repositório](../glossario_conceitos/repositorio.md)**;
 - **Descrição**: texto curto que descreve o seu projeto;
 - **Caminho local**: caminho para a pasta onde deseja iniciá-lo (observe que, como eu já segui o caminho manual, minha pasta já possui um repositório Git, logo deveria clicar na opção "adicionar esse repositório");
 - **Inicializar repositório com README**: esse arquivo é formatado em **markdown**, um tipo de linguagem que te possibilita formatar texto de forma muito simples; sua função, nesse caso, é ser o arquivo de faixada do seu repositório, onde irá conter informações importantes sobre seu projeto;
