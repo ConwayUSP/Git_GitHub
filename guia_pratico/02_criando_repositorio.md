@@ -2,7 +2,7 @@
 
 ## Fazendo manualmente
 
-Para iniciarmos, crie uma pasta em um lugar de fácil acesso do seu PC. Ela servirá de [repositório](../glossario_conceitos/repositório.md) local para os nossos futuros trabalhos. Agora, com a pasta criada, basta abrí-la com o VSCode, seja pelo explorador de arquivos, seja pelo terminal com o comando `code <caminho-da-pasta>`.
+Para iniciarmos, crie uma pasta em um lugar de fácil acesso do seu PC. Ela servirá de [repositório](../glossario_conceitos/repositorio.md) local para os nossos futuros trabalhos. Agora, com a pasta criada, basta abrí-la com o VSCode, seja pelo explorador de arquivos, seja pelo terminal com o comando `code <caminho-da-pasta>`.
 
 ![explorador aberto com opção de abrir com o VSCode](./assets/open.png)
 
