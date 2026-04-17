@@ -182,7 +182,7 @@ A equipe da Conway agora está desenvolvendo um novo e complexo Sistema de Vota�
 
 #### Quando usar e quando evitar?
 
-- **Ideal para:** Produtos de SaaS (tô com preguiça de explicar o que é isso perdão kkkkk, mas vou colocar algum material de referência pra explicar o que é), nos quais há uma alta tolerância e até mesmo uma expectativa de atualizações contínuas.
+- **Ideal para:** Produtos de SaaS, nos quais há uma alta tolerância e até mesmo uma expectativa de atualizações contínuas.
 
 _O que é Saas?:_  [SaaS: o que é, como funciona e benefícios para sua empresa](https://www.hostinger.com/br/tutoriais/saas-o-que-e)
     
