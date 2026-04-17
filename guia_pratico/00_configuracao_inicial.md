@@ -36,7 +36,7 @@ No VSCode, existem inúmeras extensões que podem ajudar a melhorar sua experiê
 1. Acesse o site a seguir e clique em Download: [https://git-scm.com/install/windows](https://git-scm.com/install/windows).
 2. No geral, apenas siga as orientações de instalação, com algumas ressalvas:
    1. **Editor padrão**: como utilizaremos o VSCode como editor nessa trilha, é preferível selecionar a opção **Use Visual Studio Code as Git's default editor**, porém fica do seu critério.
-   2. **Nome inicial da branch**: é recomendável selecionar a opção **Override the default branch name for new repositories** e deixa *main* como padrão, para evitar confusões futuras.
+   2. **Nome inicial da branch**: é recomendável selecionar a opção **Override the default branch name for new repositories** e deixar *main* como padrão, para evitar confusões futuras.
 3. Após passar por todas etapas, clique em **Install** e aguarde a instalação ser concluída.
 4. Se tudo deu certo, o Git já deve estar instalado no seu computador! Para verificar, abra o terminal e digite `git --version`. Se o terminal retornar a versão do Git instalada, isso significa que a instalação foi bem-sucedida.
 5. Depois, é necessário uma configuração inicial do Git, para que ele saiba quem é você. Para isso, basta usar os seguintes comandos, substituindo as informações entre aspas pelas suas próprias informações:
