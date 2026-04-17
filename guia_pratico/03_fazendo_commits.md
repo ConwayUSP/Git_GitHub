@@ -2,7 +2,7 @@
 
 ## Fazendo manualmente
 
-Com o [repositório](../glossario_conceitos/repositório.md) criado, podemos começar a fazer [commits](../glossario_conceitos/commit.md). Tecnicamente, um commit é um nó que aponta para o commit pai (o anterior) e guarda um *snapshot* — uma "print" do estado atual do projeto naquele momento, com todos os arquivos e linhas de código. Ou seja, podemos observar um repositório como sendo basicamente um "grafo" direcionado, sempre apontando pra trás.
+Com o [repositório](../glossario_conceitos/repositorio.md) criado, podemos começar a fazer [commits](../glossario_conceitos/commit.md). Tecnicamente, um commit é um nó que aponta para o commit pai (o anterior) e guarda uma *snapshot* — um "print" do estado atual do projeto naquele momento, com todos os arquivos e linhas de código. Ou seja, podemos observar um repositório como sendo basicamente um "grafo" direcionado, sempre apontando pra trás.
 
 Como não iremos trabalhar com nenhuma linguagem específica, o tipo de arquivo que usaremos aqui para fins didáticos será o `.txt`, mas é óbvio que no seu dia dia você terá contato com ínumeras extensões de arquivos. Portanto, crie um no seu repositório e escreva qualquer baboseira dentro. Pelo VSCode, observe que o nome do arquivo ficará em verde na aba lateral, junto a uma letra "U", que significa *Untracked*. Isso quer dizer que o Git detectou que um arquivo surgiu/foi modificado.
 
@@ -34,14 +34,14 @@ Com o programa aberto já no repositório que estamos trabalhando, será possív
 
 ### Movendo pastas da forma correta
 
-Mover pastas geralmente é uma tarefa trivial, mas quando falamos de Git, é importante fazer isso da forma correta ou erros catastróficos podem acontecer. Imagine o seguinte: se você possui um arquivo e move para uma pasta nova, infelizmente o Git não é superdotado e irá interpretar que, na realidade, você removeu o arquivo antigo e criou um novo naquela pasta. Se você fizer isso e outra pessoa estiver trabalhando ainda na versão antiga (a qual não foi movida), o Git irá deixar de rastrear as mudanças corretamente, afinal, no sistema, é como se fossem dois arquivos completamente diferentes. Tá vendo o quaão problématico um problema tão banal pode ser? E pra resolver, é tão simples quanto esse problema: 
+Mover pastas geralmente é uma tarefa trivial, mas quando falamos de Git, é importante fazer isso da forma correta ou erros catastróficos podem acontecer. Imagine o seguinte: se você possui um arquivo e move para uma pasta nova, infelizmente o Git não é superdotado e irá interpretar que, na realidade, você removeu o arquivo antigo e criou um novo naquela pasta. Se você fizer isso e outra pessoa estiver trabalhando ainda na versão antiga (a qual não foi movida), o Git irá deixar de rastrear as mudanças corretamente, afinal, no sistema, é como se fossem dois arquivos completamente diferentes. Tá vendo o quão problématico um problema tão banal pode ser? E pra resolver, é tão simples quanto esse problema: 
 
 - depois de mover o arquivo, podemos ver o status atual dos arquivos com `git status`, e como é possível ver, o arquivo "antigo" está como deleted e o novo, "untracked" (no GitHub Desktop, um está marcado como deletado e o outro como adicionado):
 
 ![mostrando o status do repositório](./assets/move-log.png)
 ![mostrando o status do repositório no GitHub Desktop](./assets/move-log-gd.png)
 
-- para consertar, usamos `git add -A`, o que irá adicionar tanto o arquivo novo quanto o antigo, e o Git irá entender que eles são o mesmo arquivo, só que em lugares diferentes
+- para consertar, usamos `git add -A`, o que irá adicionar tanto o arquivo novo quanto o antigo, e o Git irá entender que eles são o mesmo arquivo, só que em lugares diferentes.
 
 - para observar o resultado, basta usar `git status` novamente, e agora ambos os arquivos estão como "renamed" (já que na prática mover um arquivo é adicionar ou remover o prefixo de uma pasta):
 
