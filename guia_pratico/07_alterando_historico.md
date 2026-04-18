@@ -4,7 +4,7 @@ Quando estamos trabalhando locamente em um projeto, é comum que, por algum moti
 
 Para fins didáticos, o que fiz foi criar mais alguns arquivos e alguns commits, para que tenhamos um histórico mais complexo para *brincar*. O resultado disso é o seguinte:
 
-![git log](./assets/historico-alterar.PNG)
+![git log](./assets/historico-alterar.png)
 
 > Importante: sempre tenha conhecimento do seu histórico de commits antes de usar o `git rebase -i`
 
@@ -27,7 +27,7 @@ Agora que sabemos as opções, vamos começar os trabalhos! Primeiro, troquei o 
 
 Feito isso, basta salvar o arquivo e fechar o editor de código OU usar o comando `git rebase --continue`. Como usamos um `reword`, o Git irá abrir o editor de código novamente, mas dessa vez apenas para editarmos a mensagem do commit "cria arquivo quarto" (usamos o mesmo procedimento para salvar). Por fim, como usamos também o `squash`, o Git irá abrir o editor de código mais uma vez, mas dessa vez para editarmos a mensagem resultante da junção dos commits, e para escolhe-lá basta comentar tudo que você não quer que esteja na mensagem final (colocando um "#" no início da linha). Com tudo salvo, o resultado final do histórico de commits é o seguinte:
 
-![log após rebase](./assets/rebase-log.PNG)
+![log após rebase](./assets/rebase-log.png)
 
 Observe que interessante:
 - o "cria arquivo primeiro" sumiu por completo;

@@ -20,15 +20,15 @@ Depois de criado o fork, ele estará disponível na conta escolhida no GitHub. C
 
 No entanto, imagine que você fez uma mudança super legal no seu fork, e gostaria de compartilhar essa mudança com o repositório original, para que outras pessoas possam se beneficiar dela. Para isso, é necessário criar um [pull request](../glossario_conceitos/pull_request.md). Resumidamente, um pull request (PR) é um pedido que você faz para o repositório original aceitar as mudanças que você fez com tanto carinho e amor <3. Para criar um pull request, basta acessar a página do seu fork no GitHub e seguir para a aba **Pull requests**:
 
-![interface com botao de Pull Requests em destaque](./assets/pr-button.PNG)
+![interface com botao de Pull Requests em destaque](./assets/pr-button.png)
 
 Nela, estarão listados todos os pull requests que foram criados para o seu fork. Como não fizemos nenhum ainda, não haverá nada aqui. Porém, em projetos grandes, é comum que hajam centenas e até MILHARES de PRs, alguns em aberto, que ainda estão sendo revisados e analisados, e outros fechados, ou porque já foram implementados ou porque não cumpriam com algo e foram rejeitados. Para criar um novo pull request, basta clicar no botão **New pull request**:
 
-![interface com botao de New Pull Request em destaque](./assets/pr-new.PNG)
+![interface com botao de New Pull Request em destaque](./assets/pr-new.png)
 
 Nessa nova tela, aparecerá mais um formulário, agora para criar o pull request. Nessa caixa superior, é possível escolher o **base repository**, ou seja, aquele no qual você quer que as mudanças sejam implementadas (de onde foi *forkado*), e o **head repository**, ou seja, aquele onde as mudanças foram feitas (no caso, o fork). Depois disso, basta escolher a branch do **base** e a branch do **head** e, se estiver tudo certo, o GitHub irá deixar prosseguir com o PR, mas se houver alguma incosistência, como por exemplo a branch do **head** já estar atualizada com a branch do **base**, ou o histórico das duas for completamente diferente, o GitHub irá avisar que não é possível criar o PR e irá impedir que ele seja criado (o que por si só é um mal sinal, então revise bem o que está fazendo).
 
-![formulário para criar pull request](./assets/pr-forms.PNG)
+![formulário para criar pull request](./assets/pr-forms.png)
 
 Logo abaixo, há uma aba para adicionar uma descrição. Em repositórios grandes, é comum que haja uma template para preencher, já que esses recebem centenas de PRs e por isso precisam ser regirosos com o conteúdo do código e da sua descrição, por segurança e para facilitar a vida de quem irá avaliar. Por isso, se você for criar um PR sério, é importante se atentar nisso para não jogar seu precioso tempo no lixo. Depois que tudo foi revisado com muito cuidado e esmero, seu PR será criado assim que clicar em **Create pull request**.
 
