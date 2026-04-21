@@ -1,4 +1,6 @@
-# Desfazendo Caquinhas
+﻿# Desfazendo Caquinhas
+
+Voltar ao [Guia Prático](README.md)
 
 Lá estava você codando furiosamente, criando e se movendo pelas branches como se fosse o Tony Hawk em uma pista de skate até que... BANG!!! ERROS BIZONHOS DO GIT ATINGEM SUA CABEÇA.
 
@@ -117,5 +119,3 @@ git checkout main
 git reset --hard origin/main
 git clean -d --force
 ```
-
-

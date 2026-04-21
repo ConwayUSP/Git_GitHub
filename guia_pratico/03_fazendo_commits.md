@@ -1,4 +1,6 @@
-# Fazendo Commits
+﻿# Fazendo Commits
+
+Voltar ao [Guia Prático](README.md)
 
 ## Fazendo manualmente
 
@@ -79,3 +81,4 @@ Algumas boas práticas são:
 - Use escopo sempre que fizer sentido
 
 Desse modo, seus commits ficarão muito mais organizados e informativos, e aqueles que os lerem no futuro (incluindo você mesmo) agradecerão por isso!
+

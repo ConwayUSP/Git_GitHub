@@ -1,4 +1,6 @@
-# Trabalhando Remotamente
+﻿# Trabalhando Remotamente
+
+Voltar ao [Guia Prático](README.md)
 
 Tudo que vimos até agora é muito útil para trabalhar sozinho, num projeto pessoal que está presente apenas na sua máquina. Contudo, no mundo real, iremos trabalhar com outros devs e colaborar com eles, ou simplesmente queremos "guardar" o código na "nuvem", para que ele esteja disponível em qualquer lugar, para que qualquer pessoa possa acessar. Para isso, precisamos aprender a trabalhar com repositórios remotos, e é isso que veremos nesse capítulo!
 

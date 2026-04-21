@@ -1,4 +1,6 @@
-# Navegando no Repositório
+﻿# Navegando no Repositório
+
+Voltar ao [Guia Prático](README.md)
 
 ## HEAD
 
@@ -32,3 +34,4 @@ Porém, você verá que existem casos que saber o hash do commit não é tão ú
 No capítulo passado, já abordamos como fazer o *checkout* entre branches. Agora, vamos ver como navegar entre commits usando o GitHub Desktop. Para isso, basta clicar na aba "History" (histórico), que fica no canto superior esquerdo. Nela, estarão listados todos os commits da branch atual, com suas respectivas mensagens e informações de data e autor. Para navegar até um determinado commit, clique com o botão direito e depois seleciona "Checkout commit". E pronto, você estará lá, vendo o estado do repositório exatamente como ele estava naquele momento. Lembre-se que, assim como no terminal, o `HEAD` também fica "detached" aqui, então tome cuidado para não fazer commits sem estar em uma branch, ou crie uma nova branch a partir desse ponto para evitar perder seu trabalho.
 
 ![interface do github desktop mostrando a aba de histórico de commits](./assets/history_gd.png)
+

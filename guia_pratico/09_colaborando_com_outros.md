@@ -1,4 +1,6 @@
-# Colaborando com os outros
+﻿# Colaborando com os outros
+
+Voltar ao [Guia Prático](README.md)
  
 No último capítulo, foi possível aprender as bases de como utilizar repositórios remotos: como criar um, clonar, linkar o local ao remoto, enviar e buscar mudanlas. Agora, chegou a hora de aprender duas formas distintas de colaborar com o trabalho alheio.
 

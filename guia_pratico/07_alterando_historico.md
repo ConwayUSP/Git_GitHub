@@ -1,4 +1,6 @@
-# Alterando o histórico
+﻿# Alterando o histórico
+
+Voltar ao [Guia Prático](README.md)
 
 Quando estamos trabalhando locamente em um projeto, é comum que, por algum motivo, tenhamos que alterar o histórico de commits. Seja para corrigir um erro, para melhorar a mensagem de um commit ou para reorganizar os commits de uma branch. Uma forma muito poderosa de fazer isso é através do comando [`git rebase -i`](../guia_comandos/git_rebase.md) (esse "-i" vem de iterativo). De forma geral, ele permite que você altere coisinhas específicas dos commits até um certo ponto (o qual você mesmo determina). 
 

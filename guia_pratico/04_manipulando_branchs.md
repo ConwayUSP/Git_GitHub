@@ -1,4 +1,6 @@
-# Manipulando Branchs
+﻿# Manipulando Branchs
+
+Voltar ao [Guia Prático](README.md)
 
 ## Fazendo manualmente
 
@@ -29,3 +31,4 @@ Depois disso, uma outra tela muito simples abrirá apenas para indicar qual o no
 Por último, para simularmos o `git checkout` e trocarmos de branch, basta clicarmos novamente no botão que lista todas as `branchs` e clicar naquela para a qual queremos transitar. E pronto, mudamos de branch!
 
 ![interface mostrando que a nova branch foi criada e selecionada](./assets/branch_list_gd.png)
+

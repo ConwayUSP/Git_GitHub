@@ -1,4 +1,6 @@
-# Unindo Branchs
+﻿# Unindo Branchs
+
+Voltar ao [Guia Prático](README.md)
 
 ## Fazendo manualmente
 

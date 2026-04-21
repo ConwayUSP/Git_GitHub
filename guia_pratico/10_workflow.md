@@ -1,4 +1,6 @@
-## O que é um Workflow?
+﻿## O que é um Workflow?
+
+Voltar ao [Guia Prático](README.md)
 
 Um workflow (ou fluxo de trabalho) é um conjunto de regras e práticas que uma equipe adota para gerenciar as alterações no código de forma organizada e previsível. Ele define como e quando os desenvolvedores devem criar ramificações (branches), como essas ramificações interagem entre si e quais são os passos necessários para que um novo código seja revisado, testado e chegue à versão de produção. Escolher a estratégia de branching certa evita conflitos constantes e garante que o software seja entregue de forma eficiente.
 
@@ -206,3 +208,4 @@ Como você já deve ter percebido, não necessariamente existe um Workflow melho
 [Desenvolvimento baseado em troncos | Atlassian](https://www.atlassian.com/br/continuous-delivery/continuous-integration/trunk-based-development)
 
 [O que é Desenvolvimento Baseado em Troncos? | Guia de CI/CD do TeamCity | JetBrains](https://www.jetbrains.com/pt-br/teamcity/ci-cd-guide/concepts/trunk-based-development/)
+

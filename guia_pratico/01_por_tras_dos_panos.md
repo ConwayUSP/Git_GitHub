@@ -1,4 +1,6 @@
-# Por Trás dos Panos
+﻿# Por Trás dos Panos
+
+Voltar ao [Guia Prático](README.md)
 
 Nesse capítulo, iremos entender melhor como que toda essa mágica acontece: como que diferentes versões de um mesmo projeto coexistem na mesma máquina? Como que o Git consegue acompanhar as mudanças e identificar quem fez o quê? E como que o GitHub consegue hospedar repositórios e facilitar a colaboração entre desenvolvedores?
 
@@ -53,3 +55,4 @@ Sendo assim, desenvolver com o Git é seguir o seguinte fluxo:
 4. Repetir etapa 1.
 
 Com isso em mente, os próximos capítulos vão te ensinar a usar o Git e o Github para desenvolver projetos.
+
