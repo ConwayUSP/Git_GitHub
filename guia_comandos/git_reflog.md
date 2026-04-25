@@ -1,6 +1,6 @@
 # `git reflog`
 
-Voltar ao Guia de Comandos
+Voltar ao [Guia de Comandos](README.md) 
 
 ## O que faz?
 
