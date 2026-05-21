@@ -10,7 +10,7 @@ Para criar o seu primeiro repositório remoto, é simples: basta acessar https:/
 
 ![formulário para criar novo repositório remoto](./assets/create-remote.png)
 
-- **Repository name**: esse será... bem, o nomo do seu repositório. Lembre-se que as pessoas que forem acessar o repositório irão vê-lo (inclusive na URL), então escolha um nome que seja fácil de entender e que faça sentido para o projeto;
+- **Repository name**: esse será... bem, o nome do seu repositório. Lembre-se que as pessoas que forem acessar o repositório irão vê-lo (inclusive na URL), então escolha um nome que seja fácil de entender e que faça sentido para o projeto;
 - **Description**: aqui você pode escrever uma descrição do seu projeto, para que as pessoas saibam do que se trata. Ela é opcional, mas é uma boa prática sempre preenchê-la;
 - **Public/Private**: um repositório privado é visto somente por você e pelos colabores do projeto, enquanto um repositório público pode ser visto por qualquer pessoa. Se o seu projeto é algo que você quer compartilhar com o mundo, ou se é um projeto open source, o ideal é que ele seja público. Já se é um projeto pessoal, ou algo que você não quer compartilhar, o ideal é que ele seja privado;
 - **Add README**: como já explicado no capítulo [Criando um Repositório](02_criando_repositorio.md), o arquivo README é o cartão de visitas do seu projeto, onde as pessoas podem encontrar informações importantes sobre ele. Por isso, é uma boa prática sempre criar um README e deixá-lo bem escrito e organizado (aqui não vai ser necessário, mas fica a dica!);
